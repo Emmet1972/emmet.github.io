@@ -39,6 +39,7 @@ a{
 
 .bookingbody{
     background-image: url(photos/secc\ 2.jpeg);
+    background-size: cover;
 }
 
 a:hover{
