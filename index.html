@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
     <header>
@@ -17,36 +18,38 @@
             <a href="services.html">Services</a>
             <a href="blog.html">Blog</a>
             <a href="contact.html">Contact</a>
-            <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
-                </div>
+            </div>
             </div>
         </nav>
     </header>
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h2>Welcome to 12-20 Guest House</h2>
-                <p>Your comfort is our priority. Experience luxury and tranquility in the heart of the city.</p>
+                <h2 id="h21">Welcome to 12-20 Guest House</h2>
+                <p id="p1">Your comfort is our priority. Experience luxury and tranquility in the heart of the city.</p>
                 <a href="services.html" class="btn">Explore Our Services</a>
             </div>
         </section>
         <section class="rooms">
-            <h2>Our Rooms</h2>
-            <div class="room-list">
+            <h2 id="h22">Our Rooms</h2>
+            <div class="roomlist">
                 <div class="room">
-                    <img src="room1.jpg" alt="Deluxe Room">
+                    <img src="blog post/room10.jpeg" alt="Deluxe Room">
                     <h3>Deluxe Room</h3>
-                    <p>Spacious room with king-size bed, ensuite bathroom, and city view.</p>
+                    <p id="roomp">Spacious room with king-size bed, ensuite bathroom, and city view.</p>
+                    <button class="roombtn">Book Now</button>
                 </div>
                 <div class="room">
-                    <img src="room2.jpg" alt="Suite">
+                    <img src="blog post/room1.jpeg" alt="Suite">
                     <h3>Suite</h3>
-                    <p>Elegant suite with separate living area, kitchenette, and premium amenities.</p>
+                    <p id="roomp">Elegant suite with separate living area, kitchenette, and premium amenities.</p>
+                    <button class="roombtn">Book Now</button>
                 </div>
                 <div class="room">
-                    <img src="room3.jpg" alt="Standard Room">
+                    <img src="blog post/room6.jpeg" alt="Standard Room">
                     <h3>Standard Room</h3>
-                    <p>Comfortable room with all essential facilities for a pleasant stay.</p>
+                    <p id="roomp">Comfortable room with all essential facilities for a pleasant stay.</p>
+                    <button class="roombtn">Book Now</button>
                 </div>
             </div>
         </section>
@@ -84,10 +87,16 @@
                 <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact</a>
             </nav>
-            <form action="mailto:cl1220business@gmail.com" method="post" enctype="text/plain">
+            <form action="mailto:cl1220business@gmail.com" method="post" enctype="text/plain" class="footerform">
                 <input type="email" placeholder="Subscribe to our newsletter" name="newsletter">
                 <button type="submit">Subscribe</button>
             </form>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div><br><br><br>
             <p>&copy; 2021 12-20 Guest House. All rights reserved.</p>
         </footer>
     </main>
