@@ -5,92 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="navbar">
-                <div class="logo">
-                    <img src="photos/logo.png" alt="the logo" id="img">
-                </div>
+        <nav class="navbar">
+            <div class="nav">
+                <h1 class="logo">12-20 Guest House</h1>
                 <div class="navlinks">
-                    <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="blog.html">blog</a></li>
-                        <li><a href="bookings.html">bookings</a></li>
-                        <li><a href="services.html">services</a></li>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
+            <a href="index.html"><i class="fab fa-home"></i> Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <div class="sectiondiv">
-                <h1 class="sectionheading"><i>welcome to</i><br>12-20 guest house</h1>
-            <p class="sectionparagraph">a place of comfort, relaxation, and privacy</p>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to 12-20 Guest House</h2>
+                <p>Your comfort is our priority. Experience luxury and tranquility in the heart of the city.</p>
+                <a href="services.html" class="btn">Explore Our Services</a>
             </div>
-        <button class="btn"><a href="bookings.html">BOOK NOW</a></button>
         </section>
-        <div class="maindiv">
-            <div class="boxes">
-                <img src="photos/wifi.jpg" alt="">
-                <h2 class="boxesheading">24/hrs wifi</h2>
-                <p class="boxesparagraph">Experience seamless connectivity at 12-20 
-                    <br>Guest House! Our complimentary WiFi <br>
-                    ensures you stay connected with family, friends, <br>
-                    and the world outside, without any hassle</p>
+        <section class="rooms">
+            <h2>Our Rooms</h2>
+            <div class="room-list">
+                <div class="room">
+                    <img src="room1.jpg" alt="Deluxe Room">
+                    <h3>Deluxe Room</h3>
+                    <p>Spacious room with king-size bed, ensuite bathroom, and city view.</p>
+                </div>
+                <div class="room">
+                    <img src="room2.jpg" alt="Suite">
+                    <h3>Suite</h3>
+                    <p>Elegant suite with separate living area, kitchenette, and premium amenities.</p>
+                </div>
+                <div class="room">
+                    <img src="room3.jpg" alt="Standard Room">
+                    <h3>Standard Room</h3>
+                    <p>Comfortable room with all essential facilities for a pleasant stay.</p>
+                </div>
             </div>
-            <div class="boxes">
-                <img src="photos/air cond.jpeg" alt="">
-                <h2 class="boxesheading">fully air condition</h2>
-                <p class="boxesparagraph">Chill out with us! Our fully air-conditioned rooms <br>
-                    and common areas are equipped with 24/7 AC,<br>
-                    guaranteeing a refreshing retreat from the heat.</p>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Guests Say</h2>
+            <div class="testimonial-list">
+                <div class="testimonial">
+                    <p>"Amazing experience! The staff were friendly and the rooms were spotless."</p>
+                    <h4>- Sarah L.</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"A perfect getaway in the city. Highly recommend the deluxe room!"</p>
+                    <h4>- John D.</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Exceptional service and comfortable accommodations. Will visit again."</p>
+                    <h4>- Emily R.</h4>
+                </div>
             </div>
-            <div class="boxes">
-                <img src="photos/sport bar.png" alt="">
-                <h2 class="boxesheading">sport bar</h2>
-                <p class="boxesparagraph">Catch the game in style! Our sports bar at 12-20 <br>
-                Guest House is the perfect spot to cheer on your <br>
-                    favorite team, with a cold drink in hand and <br>
-                    great company</p>
-            </div>
-        </div>
-        <div class="cta">
-            <p id="cta">Your Home Away from Home Awaits!<br>
-            Book Now And Get 10% Off Your first visit <br>
-        and a Complimentary Breakfast</p>
-        <button class="btn"><a href="bookings.html">BOOK NOW</a></button>
-        </div>
-    </main>
-    <footer>
-        <div class="footerdiv">
-            <ol>
-                <li><a id="her" href="index.html">home</a></li>
-                <li><a id="her" href="blog.html">blog</a></li>
-                <li><a id="her" href="bookings.html">bookings</a></li>
-                <li><a id="her" href="services.html">services</a></li>
-                <li><a id="her" href="about.html">about</a></li>
-                <li><a id="her" href="contact.html">contact</a></li>
-            </ol>
-        </div>
-        <div class="form">
-            <form id="sub" action="mailto:cl1220business@gmail.com" method="post" enctype="text/plain">
-                <input type="email" placeholder="enter your email" id="email"><br><br>
-                <button type="submit" id="subbtn">subscribe</button>
-                <p id="submsg">subscribe to our newsletter to recieve periodic updates on latest happening</p>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="mailto:cl1220business@gmail.com" method="post" enctype="text/plain">
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <textarea placeholder="Message" name="message"></textarea>
+                <button type="submit">Send</button>
             </form>
-        </div>
-        <div class="sociallinks">
-            <a href="https://www.facebook.com/profile.php?id=61579938869132"><i class="fab fa-facebook-f">Facebook</i></a>
-            <a href="https;//wa.me/+231770174845"><i class="fab fa-whatsapp">WhatsApp</i></a>
-            <a href="mailto:cl1220business@gmail.com"><i class="fab fa-instagram">Instagram</i></a>
-        </div>
-    </footer>
-    
+        </section>
+        <footer>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <form action="mailto:cl1220business@gmail.com" method="post" enctype="text/plain">
+                <input type="email" placeholder="Subscribe to our newsletter" name="newsletter">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p>&copy; 2021 12-20 Guest House. All rights reserved.</p>
+        </footer>
+    </main>
 </body>
 </html>
