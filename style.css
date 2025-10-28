@@ -420,8 +420,8 @@ footer a:hover{
 }
 
 .bookroom{
-    width: 300px;
-    height: 250px;
+    width: 260px;
+    height: 190px;
 }
 
 .bookingroom{
@@ -442,7 +442,7 @@ footer a:hover{
 .roomimages{
     margin: 20px;
     margin: 10px;
-    width: 400px;
+    width: 300px;
     margin: 20px;
     padding: 20px;
     background-color: #ffffff;
@@ -460,7 +460,7 @@ footer a:hover{
     margin-bottom: 10px;
     text-align: center;
     margin: 10px;
-    width: 300px;
+    width: 200px;
     margin: 20px;
     padding: 20px;
     background-color: #18291f;
@@ -495,3 +495,4 @@ footer a:hover{
     background-color: #ffffff;
     box-shadow: none;
 }
+
