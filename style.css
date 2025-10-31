@@ -542,3 +542,50 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #3e8e41;
 }
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.blogimg{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.blogimg:hover{
+    transform: translateY(-5px);
+}
+
+#blogh2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #18291f;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.blog-post{
+    margin: 20px;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
